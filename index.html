@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Sarah Thordsen ">
+	<link rel="stylesheet" href="https://use.typekit.net/klr2goo.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Sarah Thordsen Musik - Sanger, Sangskriver, Korleder, Underviser</title>
+</head>
+<body>
+	<header id="hjem">
+		<ul class="topbar-container">
+			<a href="#anchorom">
+				<li class="topbar">Om</li>
+			</a>
+			<a href="#anchormusik">
+				<li class="topbar">Musik</li>
+			</a>
+			<a href="#anchorvideo">
+				<li class="topbar">Video</li>
+			</a>
+			<a href="#anchorgalleri">
+				<li class="topbar">Galleri</li>
+			</a>
+		</ul>
+		<div class="container">
+			<div class="text-container">
+				<h1 class="colored-headline">Sarah Thordsen <span class="larger-headline">Music</span></h1>
+
+				<h2 class="colored-headline citat">"-Jeg har stor passion for den gode fortælling med fokus på det ærlige og rene udtryk"</h2>
+			</div>
+			<div id="photo">
+				<img id="sarah" src="images/sarah.jpg" alt="Sara Thordsen">
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="navbar" id="navbar">
+			<ul class="sticky">
+				<a href="#anchorom">
+					<li>Om</li>
+				</a>
+				<a href="#anchormusik">
+					<li>Musik</li>
+				</a>
+				<a href="#anchorvideo">
+					<li>Video</li>
+				</a>
+				<a href="#anchorgalleri">
+					<li>Galleri</li>
+				</a>
+			</ul>
+		</div>
+		<section class="om-container" id="anchorom">
+			<div class="om-text">
+            <h1 class="om-titel"><span class="larger-headline">S</span>arah <span class="larger-headline">T</span>hordsen</h1>
+            <hr>
+            <h2 class="om-brodtekst">Sangskriveren, skuespilleren, <br> sangerinden og underviseren</h2>
+            <p>Sarah Thordsen er en meget alsidig kvinde og bevæger sig rundt på mange forskellige grene. Hendes drivkraft er musikken og hun har altid haft det tæt på sig, da hun er vokset op med musikalske forældre.
+                Sarah er aktiv med hendes egne sange i Sarah Thordsen Band, samt vokal-kooperativet Echoes in Veil. Hun er uddannet bachelor i sang og korledelse fra Det Jyske Musikkonservatorium. Underviser i sang og kor, samt har medvirket i en lang række teaterforestillinger.</p>
+        </div>
+
+        <img id="sarah2" src="images/sarah2.jpg" alt="Sarah Thordsen synger">
+		</section>
+		<section class="musik-container" id="anchormusik">
+		<h1>MUSIK</h1>
+        <hr>
+        <div class="musik-container2">
+            <div id="musikliste">
+            
+            </div>
+            <div class="musik-billede">
+                <img src="images/image2.jpg" alt="Echoes in veil">
+                <img src="images/image1.jpg" alt="Sarah Thordsen">
+            </div>
+        </div>
+		</section>
+		<section class="video-container" id="anchorvideo">
+			<video src="video/sarah-webdok.mp4" id="video"></video>	
+		</section>
+		<section class="" id="anchorgalleri">
+			<div class="wrapper">
+
+				<!-- BILLEDER PLUS NUMMERTEKST --->
+				<div class="slide">
+					<div class="nummertekst">1 / 8</div>
+					<img src="images/image1.jpg" alt="Optrædning hos Klaverstemmeren i København" style="width:100%"> 
+				</div>
+				<div class="slide">
+					<div class="nummertekst">2 / 8</div>
+					<img src="images/image2.jpg" alt="Echoes In Veil" style="width:100%">
+				</div>
+				<div class="slide">
+					<div class="nummertekst">3 / 8</div>
+					<img src="images/image3.jpg" alt="Sarah synger med i Echoes In Veil" style="width:100%">
+				</div>
+				<div class="slide">
+					<div class="nummertekst">4 / 8</div>
+					<img src="images/image4.jpg" alt="Optrædning ved studenterhuset i København" style="width:100%">
+				</div>
+				<div class="slide">
+					<div class="nummertekst">5 / 8</div>
+					<img src="images/image5.jpg" alt="Sarah performer på Nørregade" style="width:100%">
+				</div>
+				<div class="slide">
+					<div class="nummertekst">6 / 8</div>
+					<img src="images/image6.jpg" alt="Sarah Synger" style="width:100%">
+				</div>
+				<div class="slide">
+					<div class="nummertekst">7 / 8</div>
+					<img src="images/image7.jpg" alt="Sarah Optræder" style="width:100%">
+				</div>
+				<div class="slide">
+					<div class="nummertekst">8 / 8</div>
+					<img src="images/image8.jpg" alt="Optrædning på FairBar i Aarhus" style="width:100%">
+				</div>
+
+				<!-- FREM OG TILBAGE KNAPPER -->
+				<a class="tilbage" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="frem" onclick="plusSlides(1)">&#10095;</a>
+
+				<!--  BILLEDETEKST --->
+
+				<div class="caption-container">
+					<p id="caption"></p>
+				</div>
+
+				<!-- PREVIEW BILLEDER -->
+				<div class="row">
+					<div class="column">
+						<img class="demo cursor" src="images/image1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Optrædning hos Klaverstemmeren i København">
+					</div>
+					<div class="column">
+						<img class="demo cursor" src="images/image2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Echoes In Veil">
+					</div>
+					<div class="column">
+						<img class="demo cursor" src="images/image3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Sarah synger med i Echoes In Veil">
+					</div>
+					<div class="column">
+						<img class="demo cursor" src="images/image4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Optrædning ved studenterhuset i København">
+					</div>
+					<div class="column">
+						<img class="demo cursor" src="images/image5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Sarah performer på Nørregade">
+					</div>
+					<div class="column">
+						<img class="demo cursor" src="images/image6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Sarah Synger">
+					</div>
+					<div class="column">
+						<img class="demo cursor" src="images/image7.jpg" style="width:100%" onclick="currentSlide(7)" alt="Sarah Optræder">
+					</div>
+					<div class="column">
+						<img class="demo cursor" src="images/image8.jpg" style="width:100%" onclick="currentSlide(8)" alt="Optrædning på FairBar i Aarhus">
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer id="anchorfooter">
+		<div class="some">
+            <a href=""><i class="fab fa-facebook-square"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-youtube-square"></i></a>
+        </div>
+        <div class="info">
+            <a href="">
+                <p>E-mail</p>
+            </a>
+            <a href="">
+                <p>Projekter</p>
+            </a>
+            <a href="">
+                <p>Koncerter</p>
+            </a>
+        </div>
+        <div class="footer-image">
+            <img src="images/footer.png" alt="">
+        </div>
+	</footer>
+	<script src="js.js"></script>
+</body>
+</html>
